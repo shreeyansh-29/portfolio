@@ -39,6 +39,13 @@ export const LeftContainerH4 = styled.h4`
   font-size: 1.2rem;
   padding-bottom: 0.7rem;
   color: #fff;
+
+  @media only screen and (max-width: 840px){
+  }
+
+  @media only screen and (max-width: 400px){
+    font-size: 1rem;
+  }
 `;
 
 export const Location = styled.div`

@@ -6,6 +6,7 @@ import AboutSection from "../components/about";
 import FooterSection from "../components/footer";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
+import ContactSection from "../components/contact";
 
 const Homepage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ const Homepage = () => {
       <AboutSection />
       <Skills />
       <Projects />
+      <ContactSection />
       <FooterSection />
     </>
   );

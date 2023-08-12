@@ -24,7 +24,7 @@ import {Link} from "react-router-dom";
 
 const FooterSection = () => {
   return (
-    <Footer id="contact">
+    <Footer>
       <FooterContainer>
         <LeftContainer>
           <Location>
@@ -57,10 +57,10 @@ const FooterSection = () => {
           <RightContainerH4>
             &copy; Shreeyansh 2023, All Rights Reserved
           </RightContainerH4>
-          <RightContainerP>
+          {/* <RightContainerP>
             Drop me an email if you want to connect, or can connect me via
             social handle.
-          </RightContainerP>
+          </RightContainerP> */}
           <Social>
             <Link
               to="https://www.facebook.com/shreeyansh.rawat.1"
