@@ -7,7 +7,6 @@ import {
   LocationP,
   RightContainer,
   RightContainerH4,
-  RightContainerP,
   Social,
   LeftContainerH4,
   Phone,
