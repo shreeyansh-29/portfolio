@@ -36,7 +36,7 @@ export const LeftContainer = styled.div`
 `;
 
 export const LeftContainerH4 = styled.h4`
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-bottom: 0.7rem;
   color: #fff;
 
@@ -66,7 +66,7 @@ export const Email = styled.div`
 export const LocationP = styled.p`
   line-height: 30px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 `;
 
 export const RightContainer = styled.div`
@@ -82,7 +82,7 @@ export const Social = styled.div`
 `;
 
 export const RightContainerH4 = styled.h4`
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-bottom: 0.7rem;
   color: #fff;
 `;

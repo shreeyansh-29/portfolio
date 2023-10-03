@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./App.css";
 import Homepage from "./pages/homepage";
 import {BrowserRouter} from "react-router-dom";
 
 function App() {
+  
   return (
     <React.Fragment>
       <BrowserRouter>

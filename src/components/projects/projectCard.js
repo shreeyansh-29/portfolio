@@ -10,7 +10,7 @@ import {
   RightSection,
   RightSectionImg,
 } from "./projectSection";
-import { useAnimation} from "framer-motion";
+import {useAnimation} from "framer-motion";
 import {useInView} from "react-intersection-observer";
 import User from "../../images/user.jpg";
 
@@ -25,7 +25,7 @@ const projectVariants = {
 };
 
 const ProjectCard = (props) => {
-  let {key, projectName, description, link, techStack} = props;
+  let {projectName, description, link, techStack} = props;
   const controls = useAnimation();
 
   const [ref, viewRef] = useInView();
@@ -37,7 +37,7 @@ const ProjectCard = (props) => {
   }, [controls, viewRef]);
 
   return (
-    <ProjectContainer key={key}>
+    <ProjectContainer>
       <LeftSection
         ref={ref}
         initial={{x: -220, opacity: 0.2}}

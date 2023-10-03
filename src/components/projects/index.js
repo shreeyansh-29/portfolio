@@ -45,17 +45,17 @@ const Projects = () => {
       >
         <ProjectsH1>Projects.</ProjectsH1>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         ref={cardRef}
         animate={controls}
         initial={{y: 180, opacity: 0.2}}
         variants={projectCardsVariants}
         transition={{opacity: {duration: 1}, duration: 2}}
-      >
+      > */}
         {data.map((ele, index) => {
           return (
             <ProjectCard
-              key={index}
+              key={ele.projectName}
               projectName={ele.projectName}
               description={ele.description}
               link={ele.link}
@@ -63,7 +63,7 @@ const Projects = () => {
             />
           );
         })}
-      </motion.div>
+      {/* </motion.div> */}
     </ProjectSection>
   );
 };

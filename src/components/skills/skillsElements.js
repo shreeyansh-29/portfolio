@@ -102,7 +102,7 @@ export const LeftSectionDiv = styled.div`
 
 export const LeftSectionHeading = styled.h1`
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 
   @media screen and (max-width:640px) {
     font-size: 1rem; 
@@ -111,7 +111,7 @@ export const LeftSectionHeading = styled.h1`
 
 export const LeftSectionH1 = styled.h1`
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin: 14px 0;
 

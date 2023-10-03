@@ -16,7 +16,6 @@ const rightVariants = {
   visible: {y: 0, opacity: 1},
   hidden: {opacity: 0, scale: 0},
 };
-
 const downVariants = {
   visible: {y: 0, opacity: 1},
   hidden: {opacity: 0, scale: 0},

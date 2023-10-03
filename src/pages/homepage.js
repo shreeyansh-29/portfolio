@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import SideBar from "../components/sidebar";
 import Navbar from "../components/navbar";
 import HeroSection from "../components/heroSection";
@@ -10,6 +10,10 @@ import ContactSection from "../components/contact";
 
 const Homepage = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+  }, []);
 
   const toggle = () => {
     setIsOpen(!isOpen);

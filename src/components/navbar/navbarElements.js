@@ -37,7 +37,7 @@ export const NavLogo = styled(LinkS)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
@@ -85,6 +85,7 @@ export const NavLinks = styled(LinkS)`
   padding: 0 0.5rem;
   height: 100%;
   cursor: pointer;
+  font-size: 1.2rem;
   ${'' /* border-bottom: 3px solid transparent; */}
 
   &.active {
