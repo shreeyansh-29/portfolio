@@ -10,17 +10,15 @@ const squareVariants = {
   hidden: {opacity: 0, scale: 0},
 };
 
-const projectCardsVariants = {
-  visible: {y: 0, opacity: 1},
-  hidden: {opacity: 0, scale: 0},
-};
+// const projectCardsVariants = {
+//   visible: {y: 0, opacity: 1},
+//   hidden: {opacity: 0, scale: 0},
+// };
 
 const Projects = () => {
   const controls = useAnimation();
-  const controls1 = useAnimation();
-
   const [ref, viewRef] = useInView();
-  const [cardRef, viewCardRef] = useInView();
+  // const [cardRef, viewCardRef] = useInView();
 
   useEffect(() => {
     if (viewRef) {
@@ -28,11 +26,11 @@ const Projects = () => {
     }
   }, [controls, viewRef]);
 
-  useEffect(() => {
-    if (viewCardRef) {
-      controls1.start("visible");
-    }
-  }, [controls1, viewCardRef]);
+  // useEffect(() => {
+  //   if (viewCardRef) {
+  //     controls1.start("visible");
+  //   }
+  // }, [controls1, viewCardRef]);
 
   return (
     <ProjectSection id="projects">
