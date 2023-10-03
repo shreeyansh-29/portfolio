@@ -144,6 +144,13 @@
   font-size: 1.2rem;
 }
 
+.info-message{
+  color: yellow;
+  position: absolute;
+  bottom: 10px;
+  font-size: 1.2rem;
+}
+
 @media only screen and (max-width: 700px) {
   .form-image {
     height: 200px;
