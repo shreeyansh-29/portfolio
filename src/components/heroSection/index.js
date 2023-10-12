@@ -36,7 +36,7 @@ const HeroSection = () => {
           }}
           // whileHover={{scale: 1.2}}
         >
-          <HeroH1 className="content-h1">Hi, I'm Shreeyansh.</HeroH1>
+          <HeroH1 className="content-h1">Hi, I'm Shreeyansh,</HeroH1>
         </motion.div>
         <motion.div
           // initial={{x: "100%"}}
@@ -51,10 +51,13 @@ const HeroSection = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Software Developer",
-                  "Freelancer",
-                  "MERN Stack Developer",
-                  "Open Source Contributor",
+                  "a Software Developer.",
+                  "a Web Developer.",
+                  "a Native Developer.",
+                  "a Frontend Developer."
+                  // "Freelancer",
+                  // "MERN Stack Developer",
+                  // "Open Source Contributor",
                 ],
                 autoStart: true,
                 loop: true,
