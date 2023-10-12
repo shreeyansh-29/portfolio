@@ -11,7 +11,6 @@
   margin: 0px auto;
   padding: 1rem;
   max-width: 1100px;
-  /* background-color: yellow; */
 }
 
 .contact .form-header {
@@ -48,7 +47,6 @@
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
   width: 100%;
-  /* background: pink; */
 }
 
 .form-image {
@@ -146,9 +144,8 @@
 
 .info-message{
   color: yellow;
-  position: absolute;
-  bottom: 10px;
   font-size: 1.2rem;
+  height: 20px;
 }
 
 @media only screen and (max-width: 700px) {

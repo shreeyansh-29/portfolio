@@ -77,7 +77,7 @@ const AboutSection = () => {
                   display: "flex",
                   flexDirection: "column",
                 }}
-                  className="rightSection"
+                className="rightSection"
               >
                 <motion.div
                   ref={ref1}
@@ -90,23 +90,34 @@ const AboutSection = () => {
                   // style={{backgroundColor: "lightgreen"}}
                   >
                     <p>
-                      I'm a passionate frontend developer living in Bangalore,
+                      {/* I'm a passionate frontend developer living in Bangalore,
                       India, specializing in web development and mobile
-                      development.
+                      development. */}
+                      I'm Shreeyansh Singh from Bengaluru, a driven and
+                      motivated individual with a passion for technology and
+                      software development. Currently employed as a Software
+                      Developer at Nineleaps Pvt. Ltd.
                     </p>
                     {/* <p>
                     A passionate frontend developer having hands on experience
                     in React Js and React Native.
                   </p> */}
+                    {/* <p>
+                      
+                    </p> */}
                     <p>
-                      Currently employed as a Software Developer at Nineleaps
-                      Pvt. Ltd.
-                    </p>
-                    <p>
-                      I am proficient in CSS have built some other projects with
+                      {/* I am proficient in CSS have built some other projects with
                       JavaScript. I am currently working on improving my
                       JavaScript skills by building various projects to enhance
-                      my abilities.
+                      my abilities. */}
+                      My skills encompass a diverse range of programming
+                      languages, including C/C++, JavaScript, HTMl and CSS. I am
+                      adept to utilizing variouss tools and platforms such as
+                      Github,Git and VS code to optimize my development
+                      workflow. Additionally, I have hands-on experience with
+                      prominent frameworks and libraries like React.js, React
+                      Native, Bootstrap and Material-UI, enabling me to craft
+                      dynamic and responsive web applications.
                     </p>
 
                     <p>
@@ -133,11 +144,17 @@ const AboutSection = () => {
                     <li>JavaScript</li>
                     <li>React</li>
                   </ul>
-                  <ul style={{marginLeft: "3rem"}}>
+                  <ul className="tech-list">
+                    <li>Redux</li>
                     <li>React Native</li>
                     <li>Bootstrap</li>
+                    <li>Material-UI</li>
+                  </ul>
+                  <ul className="tech-list">
+                    <li>Git</li>
+                    <li>Webpack</li>
+                    <li>C++</li>
                     <li>Node</li>
-                    <li>Express</li>
                   </ul>
                 </motion.div>
               </div>

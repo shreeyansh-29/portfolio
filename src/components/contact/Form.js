@@ -178,19 +178,22 @@ const Form = () => {
                 Submit
               </button>
             </div>
-            {status.data === 200 && (
-              <div className="success-message">Mail Sent Successfully</div>
-            )}
-            {status.error === 500 && (
-              <div className="error-message">
-                Something went wrong, please try again
-              </div>
-            )}
-            {status.error === 400 && (
-              <div className="info-message">
-                Please enter email in correct format
-              </div>
-            )}
+
+            <div style={{height: "20px"}}>
+              {status.data === 200 && (
+                <div className="success-message">Mail Sent Successfully</div>
+              )}
+              {status.error === 500 && (
+                <div className="error-message">
+                  Something went wrong, please try again
+                </div>
+              )}
+              {status.error === 400 && (
+                <div className="info-message">
+                  Please enter email in correct format
+                </div>
+              )}
+            </div>
           </form>
         </motion.div>
       </div>

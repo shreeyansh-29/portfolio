@@ -50,7 +50,7 @@ const Projects = () => {
         variants={projectCardsVariants}
         transition={{opacity: {duration: 1}, duration: 2}}
       > */}
-        {data.map((ele, index) => {
+        {data.map((ele) => {
           return (
             <ProjectCard
               key={ele.projectName}
@@ -58,6 +58,7 @@ const Projects = () => {
               description={ele.description}
               link={ele.link}
               techStack={ele.techStack}
+              img={ele.img}
             />
           );
         })}

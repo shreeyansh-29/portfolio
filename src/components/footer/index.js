@@ -29,7 +29,7 @@ const FooterSection = () => {
           <Location>
             <FaLocationDot
               size={22}
-              style={{color: "#fff", marginRight: "1.8rem", marginTop: "10px"}}
+              style={{color: "#fff", marginRight: "1.6rem", marginTop: "10px"}}
             />
             <div>
               <LocationP>Bangalore, Karnataka</LocationP>
@@ -38,7 +38,7 @@ const FooterSection = () => {
           </Location>
           <Phone>
             <LeftContainerH4>
-              <FaPhone size={20} style={{color: "#fff", marginRight: "2rem"}} />
+              <FaPhone size={20} style={{color: "#fff", marginRight: "1.6rem"}} />
               9695072068
             </LeftContainerH4>
           </Phone>
@@ -46,7 +46,7 @@ const FooterSection = () => {
             <LeftContainerH4>
               <FaMailBulk
                 size={20}
-                style={{color: "#fff", marginRight: "2rem"}}
+                style={{color: "#fff", marginRight: "1.6rem"}}
               />
               shreeyansh.rawat@gmail.com
             </LeftContainerH4>
