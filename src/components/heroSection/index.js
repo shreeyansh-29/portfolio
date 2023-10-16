@@ -86,7 +86,7 @@ const HeroSection = () => {
               target="_blank"
               primary="true"
               dark="true"
-              to="https://drive.google.com/file/d/1xzc1Qx48Wgw4wldsBfKLcIP2R7RRDNTX/view?usp=sharing"
+              to="https://drive.google.com/file/d/1-A5o4YBu5WSz6v3VpIme2VxRwvDYByvN/view?usp=sharing"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
             >
