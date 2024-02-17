@@ -24,7 +24,7 @@ const projectVariants = {
 };
 
 const ProjectCard = (props) => {
-  let {projectName, description, link, techStack, img} = props;
+  let {projectName, description, liveLink, githubLink, techStack, img} = props;
   const controls = useAnimation();
 
   const [ref, viewRef] = useInView();
@@ -48,8 +48,21 @@ const ProjectCard = (props) => {
         <LeftSectionTechStack>{techStack}</LeftSectionTechStack>
         <LeftSectionP>{description}</LeftSectionP>
         <LeftSectionButton>
-          <LeftSectionLink primary="true" dark="true" to={link} target="blank">
+          <LeftSectionLink
+            primary="true"
+            dark="true"
+            to={githubLink}
+            target="blank"
+          >
             Source Code
+          </LeftSectionLink>
+          <LeftSectionLink
+            primary="true"
+            dark="true"
+            to={liveLink}
+            target="blank"
+          >
+            Live
           </LeftSectionLink>
         </LeftSectionButton>
       </LeftSection>

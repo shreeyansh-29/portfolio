@@ -50,18 +50,19 @@ const Projects = () => {
         variants={projectCardsVariants}
         transition={{opacity: {duration: 1}, duration: 2}}
       > */}
-        {data.map((ele) => {
-          return (
-            <ProjectCard
-              key={ele.projectName}
-              projectName={ele.projectName}
-              description={ele.description}
-              link={ele.link}
-              techStack={ele.techStack}
-              img={ele.img}
-            />
-          );
-        })}
+      {data.map((ele) => {
+        return (
+          <ProjectCard
+            key={ele.projectName}
+            projectName={ele.projectName}
+            description={ele.description}
+            githubLink={ele.githubLink}
+            techStack={ele.techStack}
+            img={ele.img}
+            liveLink={ele.liveLink}
+          />
+        );
+      })}
       {/* </motion.div> */}
     </ProjectSection>
   );

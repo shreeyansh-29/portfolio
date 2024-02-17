@@ -44,7 +44,7 @@ export const LeftSection = styled(motion.div)`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  ${'' /* background-color: red; */}
+  ${"" /* background-color: red; */}
 
   @media only screen and (max-width: 768px) {
     width: 100%;
@@ -76,8 +76,21 @@ export const LeftSectionP = styled.p`
 
 export const LeftSectionButton = styled.div`
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  width: 50%;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 1200px) {
+    width: 60%;
+  }
+  @media only screen and (max-width: 991px) {
+    width: 70%;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 44%;
+  }
+  @media only screen and (max-width: 480px) {
+    width: 70%;
+  }
 `;
 
 export const LeftSectionLink = styled(Link)`
@@ -95,12 +108,18 @@ export const LeftSectionLink = styled(Link)`
   align-items: center;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-weight: 900;
 
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({primary}) => (primary ? "#fff" : "#01BF71")};
     color: #01bf71;
     border: 2px solid #01bf71;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 10px 18px;
+    font-size: 14px;
   }
 `;
 
@@ -111,7 +130,7 @@ export const RightSection = styled(motion.div)`
   justify-content: center;
   object-fit: contain;
   width: 50%;
-  ${'' /* background: blue; */}
+  ${"" /* background: blue; */}
   height: 400px;
 
   @media only screen and (max-width: 768px) {
@@ -124,10 +143,12 @@ export const RightSectionImg = styled.img`
   width: 80%;
 
   @media only screen and (max-width: 600px) {
-    /* width: 50%; */
-    /* width: 100%; */
     flex: 1;
     width: 100%;
     height: 80%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    height: 60%;
   }
 `;
