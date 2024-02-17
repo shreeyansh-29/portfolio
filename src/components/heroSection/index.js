@@ -54,7 +54,7 @@ const HeroSection = () => {
                   "a Software Developer.",
                   "a Web Developer.",
                   "a Native Developer.",
-                  "a Frontend Developer."
+                  "a Frontend Developer.",
                   // "Freelancer",
                   // "MERN Stack Developer",
                   // "Open Source Contributor",
@@ -86,7 +86,7 @@ const HeroSection = () => {
               target="_blank"
               primary="true"
               dark="true"
-              to="https://drive.google.com/file/d/1-A5o4YBu5WSz6v3VpIme2VxRwvDYByvN/view?usp=sharing"
+              to="https://drive.google.com/file/d/1jXAGNTGz9TT0P-2diKNxNmMurX8qjsDk/view?usp=sharing"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
             >
