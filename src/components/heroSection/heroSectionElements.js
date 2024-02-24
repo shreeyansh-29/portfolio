@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {MdArrowForward, MdKeyboardArrowRight} from "react-icons/md";
-import {Link as LinkR} from 'react-router-dom';
+import {Link as LinkR} from "react-router-dom";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -42,7 +42,7 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const VideoBg = styled.img`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

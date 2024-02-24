@@ -13,6 +13,7 @@ import {
 } from "./heroSectionElements";
 import {easeIn, motion} from "framer-motion";
 import Typewriter from "typewriter-effect";
+import Video from "../../images/gifs/video.gif";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -22,7 +23,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src="video.mp4" />
+        <VideoBg autoPlay loop muted src={Video} alt={'hero-section-video'}/>
       </HeroBg>
       <HeroContent>
         <motion.div
@@ -51,12 +52,12 @@ const HeroSection = () => {
             <Typewriter
               options={{
                 strings: [
-                  "a Software Developer.",
-                  "a Web Developer.",
-                  "a Native Developer.",
-                  "a Frontend Developer.",
+                  "A Software Developer.",
+                  "A Web Developer.",
+                  "A Native Developer.",
+                  "A Frontend Developer.",
                   // "Freelancer",
-                  // "MERN Stack Developer",
+                  "A MERN Stack Developer",
                   // "Open Source Contributor",
                 ],
                 autoStart: true,

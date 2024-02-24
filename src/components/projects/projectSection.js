@@ -78,6 +78,7 @@ export const LeftSectionButton = styled.div`
   display: flex;
   width: 50%;
   justify-content: space-between;
+  transition: 0.2s ease-in-out;
 
   @media only screen and (max-width: 1200px) {
     width: 60%;
